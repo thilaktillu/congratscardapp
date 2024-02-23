@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  flex-direction: column;
+  justify-content: center;
+}
+.personCard {
+  background-color: #cffafe;
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+}
+h1 {
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+img {
+  margin-top: 20px;
+}
+.congo {
+  text-align: center;
+}
